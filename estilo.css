@@ -1,0 +1,32 @@
+body {
+    font-family: "Quattrocento Sans", sans-serif;
+    padding-top: 60px;
+}
+
+h1, h2, h3 {
+    font-family: Montserrat, sans-serif;
+}
+
+.navbar-brand-inciclo {
+    height: 40px;
+    margin-top: 0px;
+margin-right: 10px;
+margin-left: -10px;
+}
+
+.bona-prato-imagem {
+    width: 100%;
+    border: 6px solid #eee;
+}
+
+.row-margin-top {
+    margin-top: 19px;
+    margin-right:10 px;
+    margin-bottom:10 px;
+    margin-right:10 px;
+
+}
+
+.table img {
+    max-width: 80px;
+}

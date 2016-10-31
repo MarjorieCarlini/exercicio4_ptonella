@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+       <link rel="stylesheet" href="estilo.css">
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+       <link href="https://fonts.googleapis.com/css?family=Montserrat|Quattrocento+Sans" rel="stylesheet">
+       <link id="favicon" href="img/favicon.png" rel="icon" type="image/x-icon">
+         <meta charset="UTF-8">  
+         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+      
+
+</head>
+<body>
+	
+	<!-- Barra de navegação superior -->
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle glyphicon glyphicon-menu-hamburger" 
+				data-toggle="collapse" data-target="#inciclo-navbar">
+                </button>
+				<a class="navbar-brand-inciclo" href="index.html"> 
+					<img class="navbar-brand-inciclo" src="logo_inciclo.png"></a>
+			</div>
+
+			<ul id="inciclo-navbar" class="nav navbar-nav navbar-left collapse navbar-collapse" data-toggle="collapse" data-target="#inciclo-navbar">
+				<li class="active"><a href="index.html">O que é Inciclo</a></li>
+				<li><a href="dc.html">O que é o Destino Colaborativo</a></li>
+				<li><a href="#incicloparatodas">Campanha Inciclo para Todas</a></li>
+				<li><a href="#responsabilidadeambiental">Responsabilidade Ambiental </a></li>
+				<li><a href="#mododeusar">Como Usar</a></li>
+			</ul>
+
+		</div>
+	</nav>
+
+	<!-- Corpo da página -->
+	
+	<div class="container">
+
+
+		<div class="row">
+			<div class="container">
+				<div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+					<div>
+						<h2 id="inciclo-slogan" class="text-uppercase">InCiclo - Você mais segura naqueles dias </h2>
+
+						<p>O Inciclo é a solução que oferece liberdade para todas as mulheres durante o período menstrual. Funciona como um coletor reutilizável que substitui o uso de absorventes. Oferece praticidade, conforto, economia, além de ser uma escolha sustentável. O Inciclo é flexível e se adapta perfeitamente ao corpo, o que faz com que você esqueça que está usando! É perfeito para todas as atividades (inclusive yoga, ciclismo, acrobacia, natação, ginástica, corrida e mergulho). Você também poderá dormir com o Inciclo. O Inciclo é simples de usar, ele é inserido na vagina e simplesmente coleta o fluxo. Pode ser usado por até 12 horas! Depois é só retirar, lavar e usar novamente. Como o Inciclo fica em posição mais baixa que um absorvente interno, facilita a remoção sem bagunça. Você não terá contato com o sangue e se inserido corretamente, não vaza. Produzido 100% em silicone, não interfere na umidade natural da vagina e é hipoalergênico, não contém substâncias químicas, ao contrário dos absorventes comuns. O uso do Inciclo também ajuda a diminuir o risco de infecções. A questão higiênica é outro fator a ser considerado: como não há proliferação de bactérias enquanto o sangue não entra em contato com o ar, ele não exala odores. O Inciclo também pode ser usado por mulheres com fluxo muito intenso, o que vai mudar é apenas o intervalo da higiene. Não é necessário retirá-lo para urinar ou evacuar. Além disso, o Inciclo é econômico e ecológico, já que você adquiri um, usa por vários anos e não precisa mais comprar absorventes descartáveis. Inciclo é mais saudável para você, para o seu bolso e para o planeta! </p>
+<!--Tabela usando Table do Bootstrap(http://getbootstrap.com.br/css/#tables)-->
+
+						<table class="table table-bordered">
+
+							<!-- Thead é uma tag do html que semanticamente explica que é o cabeçalho da tabela-->
+					    	<thead>
+
+								<!-- tr é uma tag do html que indica que a primeira linha da tabela, deve ficar em destaque(negrito)-->
+								<tr>
+									<th>Nome do produto</th>
+									<th>Cor do produto</th>
+									<th>Preço do produto</th>
+									<th>Imagem do Produto</th>
+								</tr>
+							</thead>
+							<!-- tbody é uma tag do html que semanticamente explica que inicia o corpo da tabela. -->
+							<!-- Não esquecer que o "alt" da imagem é para descrever a foto em audio-descrição.--> 
+							<tbody>
+								<tr>
+									<td>InCiclo</td>
+									<td>Branca</td>
+									<td>R$ 80,00</td>
+									<td><img src="inciclo_img_branco.jpg" alt="InCiclo- coletor menstrual. O armazenamento neste caso é dentro de um saquinho na cor branca"></td>
+								</tr>
+
+								<tr>
+									<td>InCiclo</td>
+									<td>Lilás</td>
+									<td>R$ 80,00</td>
+									<td><img src="saquinho_inciclo_lilas.jpg" alt="InCiclo- coletor menstrual. O armazenamento neste caso é dentro de um saquinho na cor lilás"></td>
+								</tr>
+
+								<tr>
+									<td>Panelinha</td>
+									<td>Única</td>
+									<td>R$ 60,00</td>
+									<td><img src="inciclo_panela_2.jpg" alt="Panelinha em Ágata usada para higienização do inciclo"></td>
+								</tr>
+							</tbody>
+							
+						</table>
+ 
+                        <!-- Formulário utilizando Form do Bootstrap(http://getbootstrap.com.br/css/#forms) -->
+						<form>
+							<!-- 1º Campo do Formulário a ser preenchido-->
+							<div class="form-group">
+								<!-- label primeira linha do formulário, que segundo a determinação do bootstrap recebe o nome de "exampleInputEmail1"> e na sequência digitar o que vc quer que apareça(comando), para preenchimento editável(input)-->
+								<label for="exampleInputEmail1">Nome do Produto Escolhido</label>
+								<!-- placeholder é o "escritinho" que vai dentro do input, para orientar o usuário do que ele deve fazer.-->
+								<input type="text" class="form-control" id="nomeProduto" placeholder="Digite o nome do produto...">
+							</div>
+                            <!-- 2º Campo do Formulário a ser preenchido-->
+							<div class="form-group">
+								<label for="exampleInputPassword1">Valor do Produto</label>
+								<!-- label - primeira do formulário, apesar de ser o 2º Campo é a 1ª linha do formulário. O nome "exampleInputPassword1" é determinado pelo bootstrap, mas faz referência que vai seguir o modelo de senha.-->
+								<input type="number" class="form-control" id="valorProduto" placeholder="Digite o valor (somente números)...">
+							</div>
+							<!--onclick é para chamar a função-->
+							<!-- implementar aqui com a função onsubmit que o Kenin vai explicar--> 
+							<button onclick="comprarProduto()" class="btn btn-default">Enviar</button>
+						</form>
+
+						<script>
+						function comprarProduto() {
+							var nome = document.getElementById('nomeProduto').value;
+							var valor = document.getElementById('valorProduto').value;
+
+							if (confirm("Deseja finalizar a compra?")) {
+								alert('Compra finalizada')
+							} else {
+								alert('Você ainda não comprou nenhum produto')
+							}
+						}
+						</script>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+	</div>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
